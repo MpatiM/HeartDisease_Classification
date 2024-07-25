@@ -1,1 +1,1 @@
-# SkinCancer_Classification
+# HeartDisease_Classification
