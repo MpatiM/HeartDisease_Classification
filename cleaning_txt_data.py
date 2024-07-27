@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 26 18:34:33 2024
-
-@author: Kanna
-"""
 # dependencies
 import pandas as pd
 import re
