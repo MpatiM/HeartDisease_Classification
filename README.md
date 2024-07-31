@@ -42,9 +42,29 @@ We delved into three different visualisatons:
 ![image](https://github.com/user-attachments/assets/bec676a4-46f0-404e-8811-bd3ad77129b7)
 
 ## Heart Disease Classification 
-- Reiterate and explain what was being classified
-- Describe the models that were used
-- Add reports/scores
+### Preprocessing the data:
+In order to classify the data properly, we binarized the target variable `Diagnosis` into **`0`**, absence of heart disease, and the values 1,2,3, & 4 as **`1`**, presence of heart disease.
+
+### Feature Selection:
+After standardizing and ensuring the data was normalized, we conducted feature selection as comparison for some models. 
+
+The features that are the top two, implying these features have an effect on the diagnosis the most, are ‘Max Heart Rate’ and ‘Age’. 
+![features](https://github.com/user-attachments/assets/6e4021e4-d1bc-4a4d-8443-298e123d7b09)
+
+Full feature set:
+
+![full_features](https://github.com/user-attachments/assets/8db577f4-a257-4f77-a238-d65d91010194)
+
+We also choose additional random features ‘Cholesterol’ and ‘Resting Blood Pressure’.
+
+
+### Machine Learning Modeling:
+The following classification models were used when predicting heart disease diagnosis.
+-	Decision Tree
+-	Neural Network
+-	Logistic Regression 
+-	Support Vector Machine (SVM)
+
 
 ## Conclusion
 The model that provided the best accuracy in diagnosing Heart Disease is the Neural Networking Optimized model using features Cholesterol and Resting Blood Pressure. Using those two features can determine the presence and absence of heart disease the best based on the overall scores.
