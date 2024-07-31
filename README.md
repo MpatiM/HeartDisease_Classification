@@ -47,4 +47,9 @@ We delved into three different visualisatons:
 - Add reports/scores
 
 ## Conclusion
-- Explain what was gathered from overall analysis of the Heart Disease data.
+The model that provided the best accuracy in diagnosing Heart Disease is the Neural Networking Optimized model using features Cholesterol and Resting Blood Pressure. Using those two features can determine the presence and absence of heart disease the best based on the overall scores.
+
+The model that did the best using the full dataset features would be the Support Vector Machine model, where the data is balanced and the based on the precision and recall. 
+
+Based on the model results, linear classification models do best in diagnosing heart disease.
+
