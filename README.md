@@ -1,10 +1,15 @@
 # Heart Disease Classification
 
 ## Project Description
-- Data we are working with
-- Source of the data
-- Goal of the project
-- What was used for the project (python, ML libraries, Tableau, etc.)
+The project focuses on Heart Disease data gathered from [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/45/heart+disease), from the year 1988. The data was collected from two clinics - Cleveland and VA Long Beach.
+
+The goal of the project using the data on heart disease is to diagnose patients based on a multitude of factors. Diagnosis is classified on whether there is an absence or presence of heart disease. We also want to find out if specific factors, or features, affect the prediction score or accuracy as a comparison. 
+
+In order to achieve this outcome, we used the following tools:
+-	Python libraries (pandas, Matplotlib)
+-	Machine Learning libraries (scikit-learn, Seaborn, TensorFlow)
+-	PySpark
+-	Tableau
 
 ## Data Extraction and Cleaning
 
