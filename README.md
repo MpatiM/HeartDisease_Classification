@@ -5,7 +5,7 @@ The project focuses on Heart Disease data gathered from [UC Irvine Machine Learn
 
 The goal of the project using the data on heart disease is to diagnose patients based on a multitude of factors. Diagnosis is classified on whether there is an absence or presence of heart disease. We also want to find out if specific factors, or features, affect the prediction score or accuracy as a comparison. 
 
-In order to achieve this outcome, we used the following tools:
+In order to achieve this outcome, we used the following tools & platforms:
 -	Python libraries (pandas, Matplotlib)
 -	Machine Learning libraries (scikit-learn, Seaborn, TensorFlow)
 -	PySpark
