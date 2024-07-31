@@ -21,7 +21,7 @@ rows = [row.strip() for row in rows if row.strip()]
 c_df = pd.DataFrame(rows, columns = ['data'])
 c_df
 
-c_df = c_df['data'].str.split(expand=True)
+c_df = c_df['data'].str.split(expand=True).reindex(columns=range(75))
 c_df
 
 ## Cleaning long beach va data into proper rows
@@ -75,6 +75,10 @@ full_df
 for col in full_df.columns:
     print("\n-----%s-----" % col)
     print(full_df[col].value_counts())
+
+# Dataset Count
+full_df.size  # 37050
+full_df.shape  # 494,75
 
 # Save full_df as csv file
 full_df.to_csv("./full_dataset.csv", index=False)
