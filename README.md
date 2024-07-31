@@ -14,7 +14,7 @@ In order to achieve this outcome, we used the following tools & platforms:
 ## Data Extraction and Cleaning
 
 ## Heart Disease Analysis
-Here is the Tableau link: https://public.tableau.com/app/profile/anna.lewis2284/viz/Project4HeartDisease_17222974244730/Story1?publish=yes
+Using Tableau (link: https://public.tableau.com/app/profile/anna.lewis2284/viz/Project4HeartDisease_17222974244730/Story1?publish=yes), we created dynamic visualizations to further analyze heart disease.
 
 We delved into three different visualisatons: 
 - Sex vs. Age
