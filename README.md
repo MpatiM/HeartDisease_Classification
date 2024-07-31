@@ -7,11 +7,20 @@ The goal of the project using the data on heart disease is to diagnose patients 
 
 In order to achieve this outcome, we used the following tools & platforms:
 -	Python libraries (pandas, Matplotlib)
--	Machine Learning libraries (scikit-learn, Seaborn, TensorFlow)
+-	Machine Learning (ML) libraries (scikit-learn, Seaborn, TensorFlow)
 -	PySpark
 -	Tableau
 
 ## Data Extraction and Cleaning
+All data used for the project was extracted from and saved into the **`Resources/`** folder. 
+
+Using the text files `unclean_cleveland.txt` and `unclean_long_beach_va.txt`, we were able to clean data to a data frame and stack data vertically. 
+
+Cleaned data was saved as **`full_dataset.csv`** in the folder and used in Tableau to create visualize analyses.  
+
+Each individual cleaned dataset `cleveland.txt` and `va.txt` were extracted and stacked vertically. The new data frame was cleaned by removing unwanted columns that were either irrelevant or contained too many missing values. 
+
+This cleaned data was saved as **`heartdisease.csv`** in the folder and used when computing and analyzing the ML models.
 
 ## Heart Disease Analysis
 Using Tableau (link: https://public.tableau.com/app/profile/anna.lewis2284/viz/Project4HeartDisease_17222974244730/Story1?publish=yes), we created dynamic visualizations to further analyze heart disease.
