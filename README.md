@@ -61,10 +61,29 @@ We also choose additional random features ‘Cholesterol’ and ‘Resting Blood
 ### Machine Learning Modeling:
 The following classification models were used when predicting heart disease diagnosis.
 -	Decision Tree
+-	Random Foresting
 -	Neural Network
 -	Logistic Regression 
 -	Support Vector Machine (SVM)
 
+After trialing, optimizing, and comparing the accuracy scores for several of the models, these models came out with the best:
+
+- **Logistic Regression (solver = 'lbfgs')**
+
+![LogReg_lbfgs](https://github.com/user-attachments/assets/25ec16b1-d718-4546-8a3e-343251ae8c42)
+
+  
+- **Support Vector Machine (SVM) (kernel = 'linear')**
+
+![SVM_linear](https://github.com/user-attachments/assets/afe53a9f-69ad-45ef-a0a4-3bc630c01c5d)
+
+  
+- **Neural Network (Optimized)**
+
+<img width="1122" alt="bestmodel_chol_rbp" src="https://github.com/user-attachments/assets/61da2569-67c8-4c60-9636-155771d8d778">
+<img width="1121" alt="bestmodel_maxhr_age" src="https://github.com/user-attachments/assets/ac3a0e6b-1bb5-435f-9b6f-c2b20922a6f7">
+
+  
 
 ## Conclusion
 The model that provided the best accuracy in diagnosing Heart Disease is the Neural Networking Optimized model using features Cholesterol and Resting Blood Pressure. Using those two features can determine the presence and absence of heart disease the best based on the overall scores.
